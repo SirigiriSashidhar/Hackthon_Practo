@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="Utility.ExtendReport" />
+	</listeners>
+	<test name="Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="city" value="Bangalore" />
+		<classes>
+			<class name="test.PractoHomeTest" />
+			<class name="test.FindAndBookTest" />
+			<class name="test.ResultPageTest" />
+			<class name="test.FormPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test2">
+		<parameter name="browser" value="edge" />
+		<parameter name="city" value="Pune" />
+		<classes>
+			<class name="test.PractoHomeTest" />
+			<class name="test.FindAndBookTest" />
+			<class name="test.ResultPageTest" />
+			<class name="test.FormPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

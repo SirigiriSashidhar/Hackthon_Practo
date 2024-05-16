@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2317399\Downloads\7HackathonBuild3_\Hackathon_Practo_Build1\src\test\java\test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 3 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)">formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)">formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)">formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="allFilters">allFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="allFilters">allFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="doctorDetails">doctorDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="doctorDetails">doctorDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="experienceFilter">experienceFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="experienceFilter">experienceFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)">formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)">formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)">formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="genderFilter">genderFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="genderFilter">genderFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="navigatingToCorporate">navigatingToCorporate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="navigatingToCorporate">navigatingToCorporate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="patientStoriesFilter">patientStoriesFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="patientStoriesFilter">patientStoriesFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FindAndBookTest" class="method navigator-link" hash-for-method="popularPlace(Bangalore)">popularPlace(Bangalore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FindAndBookTest" class="method navigator-link" hash-for-method="popularPlace(Pune)">popularPlace(Pune)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.PractoHomeTest" class="method navigator-link" hash-for-method="searchDoctor">searchDoctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.PractoHomeTest" class="method navigator-link" hash-for-method="searchDoctor">searchDoctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.PractoHomeTest" class="method navigator-link" hash-for-method="setUp(chrome)">setUp(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.PractoHomeTest" class="method navigator-link" hash-for-method="setUp(edge)">setUp(edge)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="shortByFilter">shortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ResultPageTest" class="method navigator-link" hash-for-method="shortByFilter">shortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FindAndBookTest" class="method navigator-link" hash-for-method="speciality">speciality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FindAndBookTest" class="method navigator-link" hash-for-method="speciality">speciality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="tearDown">tearDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.FormPageTest" class="method navigator-link" hash-for-method="tearDown">tearDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.FormPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)">
+                  </a> <!-- formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone) -->
+                  <span class="method-name">formtest</span>
+                  <span class="parameters">(negative,sirigiri,NewCognizant,9090904935,sirigiri@xyz,1001-5000,Referring someone)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=124.0.2478.67)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5400d7a4a06b21224a0476b070c0136d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51851}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51851/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5400d7a4a06b21224a0476b070c0136d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at pajeObjectModel.Mydriver.screenShot(Mydriver.java:53)
+	at pajeObjectModel.FormPage.formtester(FormPage.java:45)
+	at test.FormPageTest.formtest(FormPageTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)">
+                  </a> <!-- formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone) -->
+                  <span class="method-name">formtest</span>
+                  <span class="parameters">(positive,sirigiri,NewCognizant,9090904935,sirigiri@xyz.com,1001-5000,Referring someone)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=124.0.2478.67)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5400d7a4a06b21224a0476b070c0136d, findElement {value=//select[@id=&apos;organizationSize&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51851}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51851/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5400d7a4a06b21224a0476b070c0136d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:43)
+	at pajeObjectModel.FormPage.formtester(FormPage.java:53)
+	at test.FormPageTest.formtest(FormPageTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)">
+                  </a> <!-- formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone) -->
+                  <span class="method-name">formtest</span>
+                  <span class="parameters">(negative,sirigiri,NewCognizant,90909049,sirigiri@xyz.com,1001-5000,Referring someone)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=124.0.2478.67)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5400d7a4a06b21224a0476b070c0136d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51851}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51851/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5400d7a4a06b21224a0476b070c0136d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at pajeObjectModel.Mydriver.screenShot(Mydriver.java:53)
+	at pajeObjectModel.FormPage.formtester(FormPage.java:45)
+	at test.FormPageTest.formtest(FormPageTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ResultPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allFilters">
+                  </a> <!-- allFilters -->
+                  <span class="method-name">allFilters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allFilters">
+                  </a> <!-- allFilters -->
+                  <span class="method-name">allFilters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doctorDetails">
+                  </a> <!-- doctorDetails -->
+                  <span class="method-name">doctorDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doctorDetails">
+                  </a> <!-- doctorDetails -->
+                  <span class="method-name">doctorDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="experienceFilter">
+                  </a> <!-- experienceFilter -->
+                  <span class="method-name">experienceFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="experienceFilter">
+                  </a> <!-- experienceFilter -->
+                  <span class="method-name">experienceFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="genderFilter">
+                  </a> <!-- genderFilter -->
+                  <span class="method-name">genderFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="genderFilter">
+                  </a> <!-- genderFilter -->
+                  <span class="method-name">genderFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigatingToCorporate">
+                  </a> <!-- navigatingToCorporate -->
+                  <span class="method-name">navigatingToCorporate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigatingToCorporate">
+                  </a> <!-- navigatingToCorporate -->
+                  <span class="method-name">navigatingToCorporate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientStoriesFilter">
+                  </a> <!-- patientStoriesFilter -->
+                  <span class="method-name">patientStoriesFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientStoriesFilter">
+                  </a> <!-- patientStoriesFilter -->
+                  <span class="method-name">patientStoriesFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shortByFilter">
+                  </a> <!-- shortByFilter -->
+                  <span class="method-name">shortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shortByFilter">
+                  </a> <!-- shortByFilter -->
+                  <span class="method-name">shortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.FormPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)">
+                  </a> <!-- formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone) -->
+                  <span class="method-name">formtest</span>
+                  <span class="parameters">(positive,sirigiri,NewCognizant,9090904935,sirigiri@xyz.com,1001-5000,Referring someone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)">
+                  </a> <!-- formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone) -->
+                  <span class="method-name">formtest</span>
+                  <span class="parameters">(negative,sirigiri,NewCognizant,9090904935,sirigiri@xyz,1001-5000,Referring someone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)">
+                  </a> <!-- formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone) -->
+                  <span class="method-name">formtest</span>
+                  <span class="parameters">(negative,sirigiri,NewCognizant,90909049,sirigiri@xyz.com,1001-5000,Referring someone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tearDown">
+                  </a> <!-- tearDown -->
+                  <span class="method-name">tearDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tearDown">
+                  </a> <!-- tearDown -->
+                  <span class="method-name">tearDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.PractoHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchDoctor">
+                  </a> <!-- searchDoctor -->
+                  <span class="method-name">searchDoctor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchDoctor">
+                  </a> <!-- searchDoctor -->
+                  <span class="method-name">searchDoctor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp(chrome)">
+                  </a> <!-- setUp(chrome) -->
+                  <span class="method-name">setUp</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp(edge)">
+                  </a> <!-- setUp(edge) -->
+                  <span class="method-name">setUp</span>
+                  <span class="parameters">(edge)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.FindAndBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="popularPlace(Bangalore)">
+                  </a> <!-- popularPlace(Bangalore) -->
+                  <span class="method-name">popularPlace</span>
+                  <span class="parameters">(Bangalore)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popularPlace(Pune)">
+                  </a> <!-- popularPlace(Pune) -->
+                  <span class="method-name">popularPlace</span>
+                  <span class="parameters">(Pune)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speciality">
+                  </a> <!-- speciality -->
+                  <span class="method-name">speciality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speciality">
+                  </a> <!-- speciality -->
+                  <span class="method-name">speciality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2317399\Downloads\7HackathonBuild3_\Hackathon_Practo_Build1\src\test\java\test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utility.ExtendReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;Bangalore&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.PractoHomeTest&quot;/&gt;
+      &lt;class name=&quot;test.FindAndBookTest&quot;/&gt;
+      &lt;class name=&quot;test.ResultPageTest&quot;/&gt;
+      &lt;class name=&quot;test.FormPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;Pune&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.PractoHomeTest&quot;/&gt;
+      &lt;class name=&quot;test.FindAndBookTest&quot;/&gt;
+      &lt;class name=&quot;test.ResultPageTest&quot;/&gt;
+      &lt;class name=&quot;test.FormPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'setUp')
+data.setCell(0, 2, 'test.PractoHomeTest')
+data.setCell(0, 3, 31382);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'setUp')
+data.setCell(1, 2, 'test.PractoHomeTest')
+data.setCell(1, 3, 21732);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tearDown')
+data.setCell(2, 2, 'test.FormPageTest')
+data.setCell(2, 3, 19121);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigatingToCorporate')
+data.setCell(3, 2, 'test.ResultPageTest')
+data.setCell(3, 3, 13459);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'formtest')
+data.setCell(4, 2, 'test.FormPageTest')
+data.setCell(4, 3, 12411);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tearDown')
+data.setCell(5, 2, 'test.FormPageTest')
+data.setCell(5, 3, 10542);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'navigatingToCorporate')
+data.setCell(6, 2, 'test.ResultPageTest')
+data.setCell(6, 3, 8474);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'formtest')
+data.setCell(7, 2, 'test.FormPageTest')
+data.setCell(7, 3, 8036);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchDoctor')
+data.setCell(8, 2, 'test.PractoHomeTest')
+data.setCell(8, 3, 7392);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'formtest')
+data.setCell(9, 2, 'test.FormPageTest')
+data.setCell(9, 3, 6844);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'popularPlace')
+data.setCell(10, 2, 'test.FindAndBookTest')
+data.setCell(10, 3, 6831);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'allFilters')
+data.setCell(11, 2, 'test.ResultPageTest')
+data.setCell(11, 3, 6457);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'speciality')
+data.setCell(12, 2, 'test.FindAndBookTest')
+data.setCell(12, 3, 6334);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'formtest')
+data.setCell(13, 2, 'test.FormPageTest')
+data.setCell(13, 3, 6212);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'speciality')
+data.setCell(14, 2, 'test.FindAndBookTest')
+data.setCell(14, 3, 5828);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'genderFilter')
+data.setCell(15, 2, 'test.ResultPageTest')
+data.setCell(15, 3, 5629);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'shortByFilter')
+data.setCell(16, 2, 'test.ResultPageTest')
+data.setCell(16, 3, 5606);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'genderFilter')
+data.setCell(17, 2, 'test.ResultPageTest')
+data.setCell(17, 3, 5432);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchDoctor')
+data.setCell(18, 2, 'test.PractoHomeTest')
+data.setCell(18, 3, 5285);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'experienceFilter')
+data.setCell(19, 2, 'test.ResultPageTest')
+data.setCell(19, 3, 4471);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'patientStoriesFilter')
+data.setCell(20, 2, 'test.ResultPageTest')
+data.setCell(20, 3, 4435);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'patientStoriesFilter')
+data.setCell(21, 2, 'test.ResultPageTest')
+data.setCell(21, 3, 4291);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'allFilters')
+data.setCell(22, 2, 'test.ResultPageTest')
+data.setCell(22, 3, 3936);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'doctorDetails')
+data.setCell(23, 2, 'test.ResultPageTest')
+data.setCell(23, 3, 3835);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'popularPlace')
+data.setCell(24, 2, 'test.FindAndBookTest')
+data.setCell(24, 3, 3284);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'experienceFilter')
+data.setCell(25, 2, 'test.ResultPageTest')
+data.setCell(25, 3, 2883);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'shortByFilter')
+data.setCell(26, 2, 'test.ResultPageTest')
+data.setCell(26, 3, 2492);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'doctorDetails')
+data.setCell(27, 2, 'test.ResultPageTest')
+data.setCell(27, 3, 647);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'formtest')
+data.setCell(28, 2, 'test.FormPageTest')
+data.setCell(28, 3, 14);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'formtest')
+data.setCell(29, 2, 'test.FormPageTest')
+data.setCell(29, 3, 9);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.PractoHomeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchDoctor</span>
+                <span class="method-start">31464 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.FindAndBookTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">popularPlace(Bangalore)</span>
+                <span class="method-start">38863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speciality</span>
+                <span class="method-start">42154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ResultPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">genderFilter</span>
+                <span class="method-start">48491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">patientStoriesFilter</span>
+                <span class="method-start">53929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">experienceFilter</span>
+                <span class="method-start">58226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allFilters</span>
+                <span class="method-start">62703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shortByFilter</span>
+                <span class="method-start">69165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doctorDetails</span>
+                <span class="method-start">74780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigatingToCorporate</span>
+                <span class="method-start">78619 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.FormPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">settingup</span>
+                <span class="method-start">92094 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)</span>
+                <span class="method-start">92477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)</span>
+                <span class="method-start">104893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)</span>
+                <span class="method-start">112933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119150 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.PractoHomeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">142254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchDoctor</span>
+                <span class="method-start">163990 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.FindAndBookTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">popularPlace(Pune)</span>
+                <span class="method-start">169283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speciality</span>
+                <span class="method-start">176118 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ResultPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">genderFilter</span>
+                <span class="method-start">181949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">patientStoriesFilter</span>
+                <span class="method-start">187582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">experienceFilter</span>
+                <span class="method-start">192020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allFilters</span>
+                <span class="method-start">194906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shortByFilter</span>
+                <span class="method-start">198846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doctorDetails</span>
+                <span class="method-start">201342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigatingToCorporate</span>
+                <span class="method-start">201993 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.FormPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">settingup</span>
+                <span class="method-start">210480 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">formtest(positive, sirigiri, NewCognizant, 9090904935, sirigiri@xyz.com, 1001-5000, Referring someone)</span>
+                <span class="method-start">210560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">formtest(negative, sirigiri, NewCognizant, 90909049, sirigiri@xyz.com, 1001-5000, Referring someone)</span>
+                <span class="method-start">217511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">formtest(negative, sirigiri, NewCognizant, 9090904935, sirigiri@xyz, 1001-5000, Referring someone)</span>
+                <span class="method-start">217525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">217545 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
